@@ -2,13 +2,15 @@ body {
   font-size: 10px;
 }
 
+
 .navbar {
   color: white;
   display: flex;
+  flex-wrap:wrap;
   box-sizing: border-box;
   justify-content: space-around;
   align-items: center;
-  padding: 0.5rem 1.5rem;
+  padding: 1rem 1.5rem;
 }
 
 .navbar_author {
@@ -25,6 +27,16 @@ body {
 
 .menuicon {
   display: none;
+}
+
+.profilepic {
+  border: none;
+  border-radius: 50%;
+  margin: 2rem auto;
+  width:70%;
+  max-width: 250px;
+  height: auto;
+  max-height: 250px;
 }
 
 
@@ -58,4 +70,9 @@ body {
     .navbar_link.mobile:hover {
         background: #616161;
     }
+
+    /* .profilepic {
+      width: 10rem;
+      height: 10rem;
+    } */
 }
